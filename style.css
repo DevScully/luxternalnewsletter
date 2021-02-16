@@ -1,0 +1,293 @@
+@font-face {
+  font-family: Adelle;
+  src: url("Adelle_light.otf") format("opentype");
+}
+
+body {
+  background: black;
+  text-align: center;
+  line-height: 1.7;
+  color: rgb(240, 240, 240);
+}
+
+.header-main {
+  position: relative;
+}
+
+*,
+*:before,
+*:after {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main-row {
+  margin-right: 0;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-row-container {
+  flex: 0 0 55%;
+  max-width: 55%;
+}
+
+.left-row-container-mobile {
+  padding: 123px 0px 0 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-row-content {
+  max-width: 560px;
+  width: 100%;
+}
+
+.left-row-heading {
+  text-align: center;
+}
+
+.paragraph {
+}
+
+.sign-up-container {
+}
+
+.testimonials {
+  padding-top: 100px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.sub-headings {
+}
+
+.quote-container {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: normal;
+  height: 38px;
+  margin: 25px 0 40px;
+
+  text-align: center;
+  color: aliceblue;
+}
+
+.right-row-container-mobile {
+  padding: 130px 0px 0px 15px;
+}
+
+.right-row-container {
+  flex: 0 0 45%;
+  max-width: 45%;
+  text-align: center;
+}
+
+.right-row-container-mobile,
+.right-row-container {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.phone-sample {
+  text-align: center;
+  position: relative;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.newsletter-sample {
+}
+
+.phone-sample {
+}
+
+.instructions-sample {
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+p,
+div {
+  font-family: "adelle", san-serif;
+  color: aliceblue;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0 0 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+
+div {
+  display: block;
+}
+
+.instructions-sample {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.logo {
+  padding: 20px 0 20px;
+  margin: 0px auto;
+
+  text-align: center;
+}
+
+.textcontent {
+  text-align: center;
+}
+
+/* RESPONSOVE KAK */
+
+@media screen and (max-width: 1299px) {
+  .container {
+    max-width: 860px;
+  }
+
+  .left-row-container-mobile {
+    padding: 123px 30px 0px 0px;
+  }
+
+  .left-row-container-mobile h1 {
+    font-size: 30px;
+  }
+
+  .phone-sample {
+    padding: 0 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .displaydesktop {
+    display: none;
+  }
+
+  .left-row-container-mobile {
+    padding-top: 40px;
+  }
+
+  .left-row-container-mobile h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+
+  .left-row-container-mobile {
+    padding: 50px 0 0;
+  }
+
+  .left-row-container-mobile,
+  .left-row-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .right-row-container-mobile {
+    padding: 25px 0px 0;
+  }
+
+  .testimonials {
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .testimonials {
+    padding-top: 60px;
+  }
+
+  .testimonials h2 {
+    font-size: 18px;
+  }
+
+  .phone-sample {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .left-row-container-mobile h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .left-row-container-mobile h1,
+  .referraltop h1 {
+    font-size: 22px;
+  }
+
+  .textcontent {
+    padding: 0;
+  }
+
+  .left-row-container-mobile {
+    padding: 30px 0 0;
+  }
+
+  .testimonials {
+    padding-top: 40px;
+  }
+
+  .testimonials h2 {
+    display: none;
+  }
+
+  .quote-container {
+    font-size: 15px;
+    margin: 10px 0 25px;
+  }
+
+  .phone-sample {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .left-row-container-mobile h1 {
+    font-size: 19px;
+  }
+}
