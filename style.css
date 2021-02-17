@@ -69,7 +69,7 @@ body {
 }
 
 .testimonials {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .testimonials h2 {
@@ -92,7 +92,7 @@ body {
 }
 
 .right-row-container-mobile {
-  padding: 130px 0px 0px 15px;
+  padding: 60px 0px 0px 600px;
 }
 
 .right-row-container {
@@ -128,6 +128,9 @@ h2 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: aliceblue;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: yellow;
 }
 
 p,
@@ -151,7 +154,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 30px;
   margin: 0 0 30px;
 }
 
@@ -181,23 +184,74 @@ div {
   text-align: center;
 }
 
+.phone-text {
+  color: white;
+  font-family: "Raleway", Sans-Serif;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.displaymob {
+  display: none;
+}
+
+.form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+.required-email {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid yellow;
+  font-size: 14px;
+  color: white;
+  width: 400px;
+}
+
+input {
+  height: 40px;
+}
+
+form .submit {
+  background: transparent;
+  border-color: transparent;
+  font-family: "raleway", Sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 30px;
+  color: white;
+}
+
+form .submit:hover {
+  color: gold;
+  cursor: pointer;
+}
+
 /* RESPONSOVE KAK */
 
-@media screen and (max-width: 1299px) {
-  .container {
-    max-width: 860px;
-  }
-
+@media screen and (max-width: 1500px) {
   .left-row-container-mobile {
-    padding: 123px 30px 0px 0px;
+    padding: 80px 30px 0px 0px;
   }
 
   .left-row-container-mobile h1 {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .phone-sample {
     padding: 0 30px 0 0;
+  }
+
+  .testimonials h2 {
+    font-size: 14px;
+  }
+
+  .body {
+    overflow: hidden;
   }
 }
 
@@ -212,7 +266,7 @@ div {
 
   .left-row-container-mobile h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .left-row-container-mobile {
@@ -240,17 +294,21 @@ div {
   }
 
   .testimonials h2 {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .phone-sample {
     padding: 0;
   }
+
+  .displaymob {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 575px) {
   .left-row-container-mobile h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 }
 
@@ -274,6 +332,7 @@ div {
 
   .testimonials h2 {
     display: none;
+    font-size: 14px;
   }
 
   .quote-container {
