@@ -128,9 +128,7 @@ h2 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: aliceblue;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: yellow;
+  
 }
 
 p,
@@ -188,7 +186,7 @@ div {
   color: white;
   font-family: "Raleway", Sans-Serif;
   font-size: 14px;
-  padding-bottom: 5px;
+  padding-bottom: 30px;
 }
 
 .displaymob {
@@ -231,6 +229,34 @@ form .submit:hover {
   cursor: pointer;
 }
 
+#phone-logo {
+  height: 100px;
+ width: 150px ;
+position: absolute;
+top: 95px;
+padding: 0 10px;
+
+
+}
+
+.phone-display {
+  text-align: center;
+}
+
+.phone-display img {
+  display: block;
+}
+
+.phone-display {
+  height: 570px;
+  overflow: hidden;
+}
+
+img {
+  
+}
+
+
 /* RESPONSOVE KAK */
 
 @media screen and (max-width: 1500px) {
@@ -253,9 +279,36 @@ form .submit:hover {
   .body {
     overflow: hidden;
   }
+
+  .phone-sample {
+    padding: 0 30px 0 0;
 }
 
-@media screen and (max-width: 991px) {
+#iphone-display {
+
+  width: 360px;
+  height: auto;
+
+}
+
+.displaydesktop {
+
+  position: fixed;
+  top: 245px;
+  padding: 0 140px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  color: gold;
+  
+}
+
+.displaymob {
+  display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
   .displaydesktop {
     display: none;
   }
@@ -298,12 +351,20 @@ form .submit:hover {
   }
 
   .phone-sample {
-    padding: 0;
+    padding: 0 15px;
   }
 
   .displaymob {
     display: block;
   }
+  .desktop-phone-display { 
+    width: 400px;
+    margin: 0 auto;
+    }
+
+    .desktop-phone-display { 
+      position: relative;
+      }
 }
 
 @media screen and (max-width: 575px) {
@@ -341,12 +402,45 @@ form .submit:hover {
   }
 
   .phone-sample {
-    padding: 0;
+    text-align: center;
+    position: relative;
+    max-width: 390px;
+    margin: 0 auto;
   }
+
+  #phone-logo {
+    position: absolute;
+    top: 80px;
+    padding: 0 20px;
+    
+}
+
+.phone-display {
+  height: 490px;
+  overflow: hidden;
+}
 }
 
 @media screen and (max-width: 359px) {
   .left-row-container-mobile h1 {
     font-size: 19px;
   }
+
+  #phone-logo {
+    position: absolute;
+    top: 80px;
+    padding: 0 80px ;
+    
+}
+.phone-display {
+  height: 420px;
+  overflow: hidden;
+}
+
+.desktop-phone-display { 
+  width: 290px;
+  
+  }
+
+
 }
