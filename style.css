@@ -62,12 +62,6 @@ body {
   text-align: center;
 }
 
-.paragraph {
-}
-
-.sign-up-container {
-}
-
 .testimonials {
   padding-top: 20px;
 }
@@ -77,22 +71,19 @@ body {
   margin-bottom: 0;
 }
 
-.sub-headings {
-}
-
 .quote-container {
   font-size: 16px;
   font-style: italic;
   font-weight: normal;
   height: 38px;
-  margin: 25px 0 40px;
+  margin: 25px 0 80px;
 
   text-align: center;
   color: aliceblue;
 }
 
 .right-row-container-mobile {
-  padding: 60px 0px 0px 600px;
+  padding: 50px 0px 0px 15px;
 }
 
 .right-row-container {
@@ -101,26 +92,10 @@ body {
   text-align: center;
 }
 
-.right-row-container-mobile,
-.right-row-container {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
 .phone-sample {
   text-align: center;
   position: relative;
-  max-width: 390px;
   margin: 0 auto;
-}
-
-.newsletter-sample {
-}
-
-.phone-sample {
-}
-
-.instructions-sample {
 }
 
 h1,
@@ -128,7 +103,6 @@ h2 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: aliceblue;
-  
 }
 
 p,
@@ -186,7 +160,7 @@ div {
   color: white;
   font-family: "Raleway", Sans-Serif;
   font-size: 14px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .displaymob {
@@ -231,12 +205,10 @@ form .submit:hover {
 
 #phone-logo {
   height: 100px;
- width: 150px ;
-position: absolute;
-top: 95px;
-padding: 0 10px;
-
-
+  width: 150px;
+  position: absolute;
+  top: 95px;
+  padding: 0 10px;
 }
 
 .phone-display {
@@ -252,10 +224,10 @@ padding: 0 10px;
   overflow: hidden;
 }
 
-img {
-  
+.desktop-phone-display {
+  height: 570px;
+  overflow: hidden;
 }
-
 
 /* RESPONSOVE KAK */
 
@@ -282,33 +254,15 @@ img {
 
   .phone-sample {
     padding: 0 30px 0 0;
+  }
+
+  #iphone-display {
+    width: 360px;
+    height: auto;
+  }
 }
 
-#iphone-display {
-
-  width: 360px;
-  height: auto;
-
-}
-
-.displaydesktop {
-
-  position: fixed;
-  top: 245px;
-  padding: 0 140px;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer;
-  color: gold;
-  
-}
-
-.displaymob {
-  display: none;
-}
-
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .displaydesktop {
     display: none;
   }
@@ -336,6 +290,12 @@ img {
     padding: 25px 0px 0;
   }
 
+  .right-row-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
   .testimonials {
     max-width: 350px;
     margin: 0 auto;
@@ -351,20 +311,24 @@ img {
   }
 
   .phone-sample {
-    padding: 0 15px;
+    padding: 0 50px;
+    max-width: 470px;
   }
 
   .displaymob {
     display: block;
   }
-  .desktop-phone-display { 
+  .desktop-phone-display {
     width: 400px;
     margin: 0 auto;
-    }
+    overflow: hidden;
 
-    .desktop-phone-display { 
-      position: relative;
-      }
+    padding: 10px 0 0 10px;
+  }
+
+  .desktop-phone-display {
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -405,6 +369,7 @@ img {
     text-align: center;
     position: relative;
     max-width: 390px;
+
     margin: 0 auto;
   }
 
@@ -412,13 +377,12 @@ img {
     position: absolute;
     top: 80px;
     padding: 0 20px;
-    
-}
+  }
 
-.phone-display {
-  height: 490px;
-  overflow: hidden;
-}
+  .phone-display {
+    height: 490px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (max-width: 359px) {
@@ -429,18 +393,14 @@ img {
   #phone-logo {
     position: absolute;
     top: 80px;
-    padding: 0 80px ;
-    
-}
-.phone-display {
-  height: 420px;
-  overflow: hidden;
-}
-
-.desktop-phone-display { 
-  width: 290px;
-  
+    padding: 0 80px;
+  }
+  .phone-display {
+    height: 420px;
+    overflow: hidden;
   }
 
-
+  .desktop-phone-display {
+    width: 290px;
+  }
 }
