@@ -122,7 +122,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: gold;
+  color: #d8af54;
 }
 
 h1 {
@@ -146,7 +146,6 @@ div {
 }
 
 .logo {
-  padding: 20px 0 20px;
   margin: 0px auto;
 
   text-align: center;
@@ -176,7 +175,7 @@ div {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid #d8af54;
   font-size: 14px;
   color: white;
   width: 400px;
@@ -199,16 +198,17 @@ form .submit {
 }
 
 form .submit:hover {
-  color: gold;
+  color: #d8af54;
   cursor: pointer;
 }
 
 #phone-logo {
-  height: 100px;
+  height: 150px;
   width: 150px;
   position: absolute;
   top: 95px;
   padding: 0 10px;
+  margin: 0 110px;
 }
 
 .phone-display {
