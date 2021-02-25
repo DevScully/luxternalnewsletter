@@ -259,6 +259,7 @@ form .submit:hover {
   #iphone-display {
     width: 360px;
     height: auto;
+    max-width: 100%;
   }
 }
 
@@ -337,7 +338,7 @@ form .submit:hover {
   }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 510px) {
   .left-row-container-mobile h1,
   .referraltop h1 {
     font-size: 22px;
@@ -362,7 +363,7 @@ form .submit:hover {
 
   .quote-container {
     font-size: 15px;
-    margin: 10px 0 25px;
+    margin: 10px 0 80px;
   }
 
   .phone-sample {
